@@ -1,0 +1,17 @@
+/* src/pages/admin/AdminGuests.css */
+.admin-wrap { padding: 16px; color:#eaeaf2; background:#0b0b10; min-height:100vh; }
+header { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.controls { display:flex; gap:8px; }
+.controls input, .controls select, .controls button { padding:8px 10px; border-radius:8px; border:1px solid #2a2a35; background:#12121a; color:#fff; }
+.flash { margin:12px 0; padding:8px 10px; background:#1b2330; border:1px solid #263041; border-radius:8px; }
+.grid table { width:100%; border-collapse: collapse; margin-top: 12px; background:#0f0f16; }
+.grid th, .grid td { border-bottom:1px solid #232333; padding:10px; }
+.grid th { text-align:left; font-weight:600; color:#aab; }
+.grid td .small { font-size:12px; color:#aab; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+.actions button { margin-right:6px; padding:6px 10px; border-radius:6px; border:1px solid #2a2a35; background:#1b1b26; color:#fff; cursor:pointer; }
+.actions .danger { background:#3b1117; border-color:#5a1a22; }
+.pager { display:flex; gap:8px; align-items:center; justify-content:center; margin: 12px 0 24px; }
+.create .form { display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap:8px; margin-top:8px; }
+.create .form input, .create .form button { padding:8px 10px; border-radius:8px; border:1px solid #2a2a35; background:#12121a; color:#fff; }
+.create .form button { grid-column: 1 / -1; background:#4f46e5; border-color:#4f46e5; }

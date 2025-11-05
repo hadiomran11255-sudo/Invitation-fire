@@ -1,0 +1,36 @@
+/* src/pages/RSVP.css */
+.rsvp { position:relative; min-height:100vh; background: center/cover no-repeat var(--bg,#000); display:grid; place-items:center; }
+.rsvp .content { backdrop-filter: blur(2px); color:#fff; text-align:center; padding:24px; }
+.headline { font-size:56px; letter-spacing:4px; margin:0 0 8px; }
+.quote { opacity:.9; margin:0 0 16px; }
+.actions { display:flex; gap:12px; justify-content:center; }
+.btn { padding:10px 16px; border-radius:10px; border:1px solid #ffffff40; background:#ffffff15; color:#fff; cursor:pointer; }
+.btn-primary { background:#4f46e5; border-color:#4f46e5; }
+.btn-ghost { background:#ffffff15; }
+.btn:hover { opacity:.9; }
+.guest-name {
+  font-size: 20px;
+  margin: 6px 0 12px;
+  font-weight: 500;
+}
+
+.guest-name.error {
+  color: #f87171; /* red for errors */
+}
+.rsvp {
+  position: relative;
+  height: 100vh;              /* full screen height */
+  overflow: hidden;           /* Hides overflow (no flashing scrollbar) */
+  background: center/cover no-repeat var(--bg, #000);
+  display: grid;
+  place-items: center;
+}
+
+.rsvp .content {
+  position: relative;         /* ensure content is above particles */
+  z-index: 1;
+  backdrop-filter: blur(2px);
+  color: #fff;
+  text-align: center;
+  padding: 24px;
+}
